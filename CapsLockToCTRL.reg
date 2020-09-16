@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; will remap the capslock key to CTRL
+; edits entry where 
+; 4B Header Version (always 00 00 00 00)
+; 4B Header Flags (always 00 00 00 00)
+; 4B Remapping count at least 02 00 00 00 if you added 1 remap
+; 4B magic number to indicate the end (00 00 00 00)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00 
