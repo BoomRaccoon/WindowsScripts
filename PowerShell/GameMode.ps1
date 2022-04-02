@@ -1,0 +1,1 @@
+Start-Process -FilePath "C:\Users\BoomRaccoon\AppData\Local\Discord\Update.exe"

@@ -1,0 +1,1 @@
+netstat -ato # all tcp connections with processID
